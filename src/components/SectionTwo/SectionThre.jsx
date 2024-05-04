@@ -118,7 +118,7 @@ export default function SectionThre() {
                             </div>
                         </div>
                         <div>
-                            <img  src={ilk} className='w-[550px]'/>
+                            <img  src={ilk} className='w-[520px]'/>
                         </div>
                     </div>
                 </div>
