@@ -1,5 +1,11 @@
 import React from 'react'
 import ilk from '../../assets/il-01.jpg'
+import wm from '../../assets/dr (1).jpg' 
+import wm2 from '../../assets/d.jpg'
+import wm3 from '../../assets/dd.jpg'
+import wm4 from '../../assets/n.jpg'
+import wm5 from '../../assets/dr (2).jpg'
+import wm6 from '../../assets/dr (3).jpg'
 export default function SectionThre() {
     return (
         <div>
@@ -119,6 +125,63 @@ export default function SectionThre() {
                         </div>
                         <div>
                             <img  src={ilk} className='w-[520px]'/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+            <h1 className='text-center text-4xl font-bold text-blue p-4'>Our <span className='text-den'>Service</span></h1>
+                <h1 className='text-center text-5xl text-blue font-extrabold'>Latest Post from <br></br>our Blogs</h1>
+                <div className='text-center px-4 p-2 mt-9 border'>
+                    <div className='grid grid-cols-3'>
+                        <div className='shadow-md shadow-[#c9cdd1] gap-2 box-border w-[500px] h-[650px] px-9'>
+                            <img src={wm} className='w-full h-[400px] full []  hover:scale-110 duration-500'/>
+                               <p className='text-den hover:text-blue mt-8'>30 MINUTES - 25 COMMENTS</p>
+                            <h1 className='text-center text-2xl font-sans text-blue p-4 hover:text-den border-b-2'>
+                            Dental Care for Child<br></br> is very important
+                            </h1>
+                            <div className='flex justify-between'>
+                                <p>
+
+                                <img src={wm2} className='w- full rounded-full w-10 h-10 mt-2'></img>
+                                20-Apr 2022
+                                </p>
+                                <h1 className='text-center text-2xl font-sans'>Dr.ginefa</h1>
+                            </div>
+                            {/* <hr></hr> */}
+                        </div>
+                        <div className='shadow-md shadow-[#c9cdd1] gap-2 box-border w-[500px] h-[650px] px-9'>
+                            <img src={wm5} className='w-full h-[400px] full []  hover:scale-110 duration-500'/>
+                               <p className='text-den hover:text-blue mt-8'>30 MINUTES - 25 COMMENTS</p>
+                            <h1 className='text-center text-2xl font-sans text-blue p-4 hover:text-den border-b-2'>
+                            Every one need to go <br></br> Dentist regularly
+                            </h1>
+                            <div className='flex justify-between'>
+                                <p>
+
+                                <img src={wm3} className='w- full rounded-full w-10 h-10 mt-2'></img>
+                                18-Apr 2022
+                                </p>
+                                <h1 className='text-center text-2xl font-sans'>Dr.ged</h1>
+                            </div>
+                            {/* <hr></hr> */}
+                        </div>
+                        <div className='shadow-md shadow-[#c9cdd1] gap-2 box-border w-[500px] h-[650px] px-9'>
+                            <img src={wm6} className='w-full h-[400px] full []  hover:scale-110 duration-500'/>
+                               <p className='text-den hover:text-blue mt-8'>30 MINUTES - 25 COMMENTS</p>
+                            <h1 className='text-center text-2xl font-sans text-blue p-4 hover:text-den border-b-2'>
+                            Every one need to go <br></br> Dentist regularly
+                            </h1>
+                            <div className='flex justify-between'>
+                                <p>
+
+                                <img src={wm4} className='w- full rounded-full w-10 h-10 mt-2'></img>
+                                20-may 2022
+                                </p>
+                                <h1 className='text-center text-2xl font-sans'>Dr.ginefa</h1>
+                            </div>
+                            {/* <hr></hr> */}
                         </div>
                     </div>
                 </div>
