@@ -1,0 +1,16 @@
+#bg{
+    background-image: url('../../assets/ban-01.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    mix-blend-mode: overlay;
+   /* // background:blue; */
+  
+}
+.bgim.bg.background-image{
+    opacity:5%;
+}
+#dv{
+
+}
