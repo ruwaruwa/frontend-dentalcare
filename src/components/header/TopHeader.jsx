@@ -34,7 +34,7 @@ export default function TopHeader() {
                             </div>
                         </div>
                         <div className='bg-den py-1 px-8  items-center'>
-                          <button className='bg text-2xl mt-3 text-white ml-4'>apointment</button>
+                          <button className='bg text-2xl mt-3 text-white ml-4'>Apointment</button>
                         </div>
                        
                     </div>

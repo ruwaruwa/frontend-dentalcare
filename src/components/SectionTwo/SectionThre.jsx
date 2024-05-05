@@ -6,6 +6,9 @@ import wm3 from '../../assets/dd.jpg'
 import wm4 from '../../assets/n.jpg'
 import wm5 from '../../assets/dr (2).jpg'
 import wm6 from '../../assets/dr (3).jpg'
+import { TypeAnimation } from 'react-type-animation';
+import Footer from '../systemfooter/Footer'
+
 export default function SectionThre() {
     return (
         <div>
@@ -103,11 +106,11 @@ export default function SectionThre() {
                     <div className='grid sm:grid-cols-2 px-10 sm:ml-40'>
                         <div className='mt-20 py-2 p-20'>
                             <div className='text- center s'>
-                                <h1 className='text-3xl hover: font-bold font-serif text-blue'>
+                                <h1 className='text-5xl hover: font-bold font-serif text-blue p-2'>
                                     Happy <span className='text-den'>Patients</span> with <br></br>
                                     <span className='text-den'>Satisfaction </span>words</h1>
                                 <div>
-                                    <p>
+                                    <p className='p-2'>
                                         “Dental care is the maintenance of healthy teeth and
                                          the practice of keeping <br></br>the mouth and teeth clean pur
                                          sue pleasure rationally<br></br> encounter consequences 
@@ -131,11 +134,50 @@ export default function SectionThre() {
             </div>
             
             <div>
+
+            {/* <TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'We produce food for Mice',
+        1000, // wait 1s before replacing "Mice" with "Hamsters"
+        'We produce food for Hamsters',
+        1000,
+        'We produce food for Guinea Pigs',
+        1000,
+        'We produce food for Chinchillas',
+        1000
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '2em', display: 'inline-block' }}
+      repeat={Infinity}
+    /> */}
             <h1 className='text-center text-4xl font-bold text-blue p-4'>Our <span className='text-den'>Service</span></h1>
-                <h1 className='text-center text-5xl text-blue font-extrabold'>Latest Post from <br></br>our Blogs</h1>
-                <div className='text-center px-4 p-2 mt-9 border'>
-                    <div className='grid grid-cols-3'>
-                        <div className='shadow-md shadow-[#c9cdd1] gap-2 box-border w-[500px] h-[650px] px-9'>
+                {/* <h1 className='text-center text-5xl text-blue font-bold'>Latest Post from <br></br>our Blogs</h1> */}
+<h1 className='text-center text-5xl text-blue font-bold'>
+
+<TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'Latest Post from',
+        1000, // wait 1s before replacing "Mice" with "Hamsters"
+        'our',
+        1000,
+        'Blogs',
+        1000,
+        '',
+        1000
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '2em', display: 'inline-block' }}
+      repeat={Infinity}
+    />
+
+</h1>
+                <div className='text-center px-4 p-2 mt-12 border'>
+                    <div className='grid sm:grid-cols-3'>
+                        <div className='shadow-md shadow-[#c9cdd1] gap-2 box-border w-[500px] h-[650px] px-9 sm:ml-[20%] mt-5 ml-8'>
                             <img src={wm} className='w-full h-[400px] full []  hover:scale-110 duration-500'/>
                                <p className='text-den hover:text-blue mt-8'>30 MINUTES - 25 COMMENTS</p>
                             <h1 className='text-center text-2xl font-sans text-blue p-4 hover:text-den border-b-2'>
@@ -147,11 +189,11 @@ export default function SectionThre() {
                                 <img src={wm2} className='w- full rounded-full w-10 h-10 mt-2'></img>
                                 20-Apr 2022
                                 </p>
-                                <h1 className='text-center text-2xl font-sans'>Dr.ginefa</h1>
+                                <h1 className='text-center text-2xl font-sans mt-10'>Dr.ginefa</h1>
                             </div>
                             {/* <hr></hr> */}
                         </div>
-                        <div className='shadow-md shadow-[#c9cdd1] gap-2 box-border w-[500px] h-[650px] px-9'>
+                        <div className='shadow-md shadow-[#c9cdd1] gap-2 box-border w-[500px] h-[650px] px-9 sm:ml-[14%]  mt-5 ml-8'>
                             <img src={wm5} className='w-full h-[400px] full []  hover:scale-110 duration-500'/>
                                <p className='text-den hover:text-blue mt-8'>30 MINUTES - 25 COMMENTS</p>
                             <h1 className='text-center text-2xl font-sans text-blue p-4 hover:text-den border-b-2'>
@@ -163,11 +205,11 @@ export default function SectionThre() {
                                 <img src={wm3} className='w- full rounded-full w-10 h-10 mt-2'></img>
                                 18-Apr 2022
                                 </p>
-                                <h1 className='text-center text-2xl font-sans'>Dr.ged</h1>
+                                <h1 className='text-center text-2xl font-sans mt-10'>Dr.ged</h1>
                             </div>
                             {/* <hr></hr> */}
                         </div>
-                        <div className='shadow-md shadow-[#c9cdd1] gap-2 box-border w-[500px] h-[650px] px-9'>
+                        <div className='shadow-md shadow-[#c9cdd1] gap-2 box-border w-[500px] h-[650px] px-9 sm:ml-[10%] mt-5 ml-8'>
                             <img src={wm6} className='w-full h-[400px] full []  hover:scale-110 duration-500'/>
                                <p className='text-den hover:text-blue mt-8'>30 MINUTES - 25 COMMENTS</p>
                             <h1 className='text-center text-2xl font-sans text-blue p-4 hover:text-den border-b-2'>
@@ -179,13 +221,14 @@ export default function SectionThre() {
                                 <img src={wm4} className='w- full rounded-full w-10 h-10 mt-2'></img>
                                 20-may 2022
                                 </p>
-                                <h1 className='text-center text-2xl font-sans'>Dr.ginefa</h1>
+                                <h1 className='text-center text-2xl font-sans mt-10'>Dr.Ahmed</h1>
                             </div>
                             {/* <hr></hr> */}
                         </div>
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

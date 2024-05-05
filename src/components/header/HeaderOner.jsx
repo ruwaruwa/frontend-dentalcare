@@ -5,37 +5,40 @@ import './hed.css'
 import b from '../../assets/ban-01.jpg'
 import doct from '../../assets/doc.jpg'
 import SectionTwo from '../SectionTwo/SectionTwo'
+import TopHeader from './TopHeader'
+import { Link } from 'react-router-dom'
 export default function HeaderOner() {
   return (
     <div>
+      <TopHeader/>
         <div className='p-0'>
             {/* --start here-- */}
             <div className='border- 2 w-full bg-blue h-[50%]'>
        
-<div className='flex justify-evenly px-8 py-3 text-2xl text-white'>
+<div className='flex justify-evenly px-8 py-3 text-2xl text-white  top-0'>
     {/* <h1 className='text-5xl'>LOGO</h1> */}
     <div>
       <img src={" "} className='w-[50%] h -[100%]'/>
     </div>
     <div className='flex px-10 gap-10'>
     <div>
-    <h1>Home</h1>
+    <Link to={'/'}>Home</Link>
     </div>
     <div>
-    <h1>Services</h1>
+    <Link to={'service'}>Services</Link>
    
       
 
     </div>
     
     <div>
-    <h1>Dentist</h1>
+    <Link to={'dentis'}>Dentist</Link>
     </div>
     <div>
-    <h1>About Us</h1>
+    <Link to={'about'}>About Us</Link>
     </div>
     <div>
-    <h1>Contact</h1>
+    <Link to={'contact'}>Contact</Link>
     </div>
     </div>
 
