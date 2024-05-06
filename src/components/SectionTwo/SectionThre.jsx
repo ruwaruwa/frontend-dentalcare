@@ -8,7 +8,7 @@ import wm5 from '../../assets/dr (2).jpg'
 import wm6 from '../../assets/dr (3).jpg'
 import { TypeAnimation } from 'react-type-animation';
 import Footer from '../systemfooter/Footer'
-
+import './bg.css'
 export default function SectionThre() {
     return (
         <div>
@@ -227,6 +227,44 @@ export default function SectionThre() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+
+
+
+
+
+
+            <div id='for' className='bg -red-800 p-4 mt-8 flex justify-center'>
+            <div>
+               <div className="border-2 w-[650px] p-2 h- [430px] mt-2">
+            
+                <h3></h3>
+                <h1 className='text-center mt text-1xl text-den font-bold'>Apointment <span className='text-den'>form</span></h1>
+                <div className="w-[620px] p-3 pb-2 sm:ml-2 bg-blue slate-400 shadow-lg shadow-gray-400 mt-4">
+                    
+                <form className='px-1'>
+                    <div>
+                        <input type="text" placeholder='Name' className='w-full p-2 mt-4  outline-none border-2 '/>
+                        <input type="text" placeholder='Email' className='w-full p-2 mt-4 outline-none border-2'/>
+                        <input type="text" placeholder='Phone' className='w-full p-2 mt-4 outline-none border-2'/>
+                        <input type="text" placeholder='Address' className='w-full p-2 mt-4 outline-none border-2'/>
+                        <input type="text" placeholder='Subject' className='w-full p-2 mt-4 outline-none border-2'/>
+                    
+                    </div>
+                <div className="text-center flex gap-9">
+                <input type="Date" placeholder='Date' className='w- full p-2 mt-4 outline-none border-2'/>
+                <button className='bg-den text-white p-1 px-3 mt-3  rounded-lg w- [100px]'>Submit</button>
+                </div>
+                </form>
+
+                </div>
+               </div>
+
+            </div>
+{/* <div className='w-[600px] border shadow-black shadow-sm p-1'>
+    <img  src={wm5} className='h-[430px]'/>
+</div> */}
             </div>
             <Footer/>
         </div>

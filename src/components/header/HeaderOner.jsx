@@ -6,7 +6,7 @@ import b from '../../assets/ban-01.jpg'
 import doct from '../../assets/doc.jpg'
 import SectionTwo from '../SectionTwo/SectionTwo'
 import TopHeader from './TopHeader'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 export default function HeaderOner() {
   return (
     <div>
@@ -22,23 +22,23 @@ export default function HeaderOner() {
     </div>
     <div className='flex px-10 gap-10'>
     <div>
-    <Link to={'/'}>Home</Link>
+    <NavLink to={'/'}>Home</NavLink>
     </div>
     <div>
-    <Link to={'service'}>Services</Link>
+    <NavLink to={'service'}>Services</NavLink>
    
       
 
     </div>
     
     <div>
-    <Link to={'dentis'}>Dentist</Link>
+    <NavLink to={'dentis'}>Dentist</NavLink>
     </div>
     <div>
-    <Link to={'about'}>About Us</Link>
+    <NavLink to={'about'}>About Us</NavLink>
     </div>
     <div>
-    <Link to={'contact'}>Contact</Link>
+    <NavLink to={'contact'}>Contact</NavLink>
     </div>
     </div>
 

@@ -84,7 +84,7 @@ export default function Service() {
                          <div>
                         <div>
                             <div className='flex justify-evenly'>
-                                <div className='flex flex-col items-center'>
+                                <div className='flex flex-col items-center animate-pulse'>
                                     <img src={s} className='h-[600px]'/>
        </div>
        <div className='flex flex-col items-center'>
@@ -110,7 +110,7 @@ export default function Service() {
                               </h6>
        </div>
        </div>
-       <div className='items-center px- 10 p-0'>
+       <div className='items-center px- 10 p-0 animate-pulse'>
             <div className='border-4 w-[500px]full h-[500px] [50%] bg-cover h- [500px] backgrp object-cover  relative bg-center'>
 <img src={saw} className='w-full h-[500px] h- [300px] object-cover absolute mix-blend-overlay'/>
 <div className='gird grid-cols-2 sm:flex justify-around items-center mt-24 px-10 py-3 m sm:gap-0 gap-4'>

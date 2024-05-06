@@ -9,6 +9,8 @@ import SectionTwo from './components/SectionTwo/SectionTwo'
 import { Route, Routes } from 'react-router-dom'
 import Service from './components/pages/Service'
 import Dentist from './components/pages/Dentist'
+import About from './components/pages/About'
+import Contact from './components/pages/Contact'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -20,9 +22,9 @@ function App() {
 <Routes>
 <Route path='/' element={<HeaderOner/>} />
 <Route path='service' element={<Service/>} />
-<Route path='about'  />
-<Route path='contact' />
 <Route path='dentis' element ={<Dentist/>} />
+<Route path='about' element={<About/>} />
+<Route path='contact' element={<Contact/>}/>
 </Routes>
      {/* <SectionTwo/> */}
     </>

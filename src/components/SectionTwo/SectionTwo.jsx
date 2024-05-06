@@ -9,7 +9,7 @@ export default function SectionTwo() {
         <div className='bg -den border- 2'>
 <div>
     <div className='grid grid-cols-2 sm:grid-cols-3  items-center px-10'>
-<div>
+<div className='animate-pulse'>
     <div className='borde r w-[250px] h- [100px] p-2 shadow-md shadow-[#eeeff0] hover:scale-110 duration-500 gap-2 box-border'>
         <div className='flex'>
             <h1><i class="fa-solid fa-tooth font-bold text-4xl text-den"></i></h1>
@@ -24,7 +24,7 @@ export default function SectionTwo() {
     </div>
 </div>
 
-<div>
+<div className='animate-bounce'>
     <div className='w-[250px] h- [100px] p-2 shadow-md shadow-[#eeeff0] hover:scale-110 duration-500 gap-2 box-border'>
         <div className='flex '>
             <h1><i class="fa-sharp fa-solid fa-tooth font-bold text-den text-5xl "></i></h1>
@@ -39,7 +39,7 @@ export default function SectionTwo() {
     </div>
 </div>
 
-<div>
+<div className='animate-bounce'>
     <div className='w-[250px] h- [100px] p-2 shadow-md shadow-[#eeeff0] hover:scale-110 duration-500 gap-2 box-border'>
         <div className='flex'>
             <h1><i class="fa-solid fa-teeth text-5xl font-bold text-den"></i> </h1>
@@ -61,7 +61,7 @@ export default function SectionTwo() {
         <div>
             <div className='border mt-4'>
 <div className='bg -den grid sm:grid-cols-2 justify- center '>
-<div>
+<div className='animate-pulse'>
     <div className='grid gr id -cols-2 sm:grid- cols-3  items-center px-10 '>
         <img src={nin} className='w-[350px] h -[350px]  sm: block sm:ml-[40%] ml-20'/>
   

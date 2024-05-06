@@ -1,0 +1,15 @@
+#for{
+    background-image: url('../../assets/b.jpg');
+    height: 600px;
+
+}
+@keyframes change{
+    0%{
+        background-image: url('../../assets/b.jpg');
+        height: 600px;
+    }
+    100%{
+        background-image: url('../../assets/b.jpg');
+        height: 600px;
+    }
+}
